@@ -11,16 +11,17 @@ import * as Font from "expo-font";
 /* eslint-disable */
 const navigatorConfig = {
     defaultNavigationOptions: ({ navigation }) => ({
-        tabBarIcon: () => {
+        tabBarIcon: ({tintColor}) => {
             const { routeName } = navigation.state;
             const config = tabIconConfig[routeName];
-            return <Icon name={config.icon} size={25} />;
+            return <Icon name={config.icon} size={25} color={tintColor} />;
         }
     }),
-    tabBarOptions: {
-        activeTintColor: 'tomato',
-        inactiveTintColor: 'gray',
+    barStyle: {
+        backgroundColor: '#08d9d6'
     },
+    activeColor: '#ff2e63',
+    inactiveColor: '#eaeaea'
 };
 /* eslint-enable */
 

@@ -26,14 +26,14 @@ const styles = StyleSheet.create({
         padding: "5%",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#4b4b4b"
+        backgroundColor: "#252a34"
     },
     input: {
         height: 40,
         marginTop: 20,
         width: "100%",
-        borderColor: 'gray',
-        backgroundColor: "#ffffff",
+        borderColor: '#ff2e63',
+        backgroundColor: "#eaeaea",
         padding: 5,
         borderWidth: 1
     },

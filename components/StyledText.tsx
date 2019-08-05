@@ -23,7 +23,7 @@ const StyledText: React.SFC<TextProps> = ({children, fontSize, style}) => {
 
 StyledText.defaultProps = {
     fontSize: 45,
-    style: {}
+    style: {textAlign: 'justify'}
 };
 
 export default StyledText;
