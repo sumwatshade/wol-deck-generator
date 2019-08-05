@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {StyleSheet, View, Modal, TouchableHighlight} from 'react-native';
 import StyledText from "../components/StyledText";
+import ElementalDisplay from "../components/ElementalDisplay";
 
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
@@ -12,7 +13,7 @@ export default function Spell({spell}) {
         <TouchableHighlight  onPress={() => {toggleModal(!isModalVisible)}}>
             <View style={styles.container}>
                 <View style={styles.type}>
-                    <StyledText>{type}</StyledText>
+                    <ElementalDisplay type={type}/>
                 </View>
                 <View style={styles.details}>
                     <StyledText>{name}</StyledText>
@@ -36,9 +37,7 @@ export default function Spell({spell}) {
                             <StyledText fontSize={100} style={{alignSelf: 'center', color: '#ffffff'}}>
                                 {name}{subtype ? `(${subtype})` : ""}
                             </StyledText>
-                            <StyledText style={{alignSelf: 'center', color: '#ffffff'}}>
-                                {`Element: ${type}`}
-                            </StyledText>
+                            <ElementalDisplay type={type} style={{alignSelf: 'center'}} />
                             <StyledText style={{alignSelf: 'center', color: '#ffffff'}}>
                                 {`Arcana Slot: ${slot}`}
                             </StyledText>
