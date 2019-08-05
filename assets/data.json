@@ -1,0 +1,2218 @@
+{"relics":{
+  "1":
+  {"name":"Abhorrent Cologne",
+    "effect":"Enemies have less health, but enemy damage is increased!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "2":
+  {"name":"Absorption Coil",
+    "effect":"A percentage of damage taken charges your signature arcana!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "3":
+  {"name":"Agni's Sparkler",
+    "effect":"Increases ferocity of your burn status effects!",
+    "type":"Offense",
+    "pool":"4"}
+,
+  "4":
+  {"name":"Albert's Formula",
+    "effect":"Receive signature charge when healed!",
+    "type":"Misc",
+    "pool":"3"}
+,
+  "5":
+  {"name":"Alchemist's Stone",
+    "effect":"All Chaos Gems gained during the Chaos Trials are transmuted into gold!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "6":
+  {"name":"Amulet of Sundering",
+    "effect":"Increases all damage dealt!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "7":
+  {"name":"Analytical Monocle",
+    "effect":"Increases critical hit chance!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "8":
+  {"name":"Anchor of Burden",
+    "effect":"Damage and stuns are increased but movement speed is reduced for each cursed relic owned!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "9":
+  {"name":"Ancient Fountain Pen",
+    "effect":"Your charged signature arcana deals more damage every time you use it!",
+    "type":"Offense",
+    "pool":"4"}
+,
+  "10":
+  {"name":"Antiquated Tabi",
+    "effect":"Adds a small chance to evade attacks!",
+    "type":"Defense",
+    "pool":"1"}
+,
+  "11":
+  {"name":"Arcana Rewards Card",
+    "effect":"All gold costs for arcana are discounted!",
+    "type":"Misc",
+    "pool":"2"}
+,
+  "12":
+  {"name":"Armor of Greed",
+    "effect":"Grants a significant boost in armor! Every hit taken reduces gold count.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "13":
+  {"name":"Armor of Resolve",
+    "effect":"Increases armor while at low health!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "14":
+  {"name":"Assassin's Blade",
+    "effect":"Increases critical hit damage!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "15":
+  {"name":"Auditor's Talisman",
+    "effect":"Increases critical hit chance at low health!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "16":
+  {"name":"Auger of Poetry",
+    "effect":"Increases resistance to earth based attacks!",
+    "type":"Defense",
+    "pool":"2"}
+,
+  "17":
+  {"name":"Autograph Pad",
+    "effect":"Damage and movement speed is increased while signature arcana is charged!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "18":
+  {"name":"Battery of Taranis",
+    "effect":"Increases lightning damage!",
+    "type":"Offense",
+    "pool":"2"}
+,
+  "19":
+  {"name":"Berserker's Axe",
+    "effect":"Increases damage dealt for a short while after taking damage!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "20":
+  {"name":"Berserker's Helm",
+    "effect":"Damage increased while at low health!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "21":
+  {"name":"Bladed Buckler",
+    "effect":"Destroying an enemy projectile grants signature charge energy!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "22":
+  {"name":"Blasting Sprite Aura",
+    "effect":"Summons a sprite that slows enemies!",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "23":
+  {"name":"Boots of Frenzy",
+    "effect":"Defeating enemies grants a chance to temporarily add unlimited charges to your movement arcana!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "24":
+  {"name":"Bracers of the Beast",
+    "effect":"Pressing forward into an attack immediately before impact allows you to guard the attack!",
+    "type":"Defense",
+    "pool":"4"}
+,
+  "25":
+  {"name":"Broken Plague Flask",
+    "effect":"Enemy max health is lowered, but your health is lowered as well!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "26":
+  {"name":"C-99 Piggy Bank",
+    "effect":"Gets heavier as you progress through the trials. Drop from inventory to open.",
+    "type":"Misc",
+    "pool":"3"}
+,
+  "27":
+  {"name":"Calcifying Bonemail",
+    "effect":"Increases armor for a short duration after taking damage!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "28":
+  {"name":"Calvin's Sandy Shoes",
+    "effect":"Adds a chance to evade while at low health!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "29":
+  {"name":"Captain's Ring",
+    "effect":"Equipping arcana of differing elements increases damage!",
+    "type":"Offense",
+    "pool":"3"}
+,
+  "30":
+  {"name":"Cartographer's Quill",
+    "effect":"Increases damage based on how much of the map you have revealed! Damage increase lasts for the entire trial!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "31":
+  {"name":"Chaos Scanner",
+    "effect":"Reveals health bars for all enemies in the Chaos Trials!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "32":
+  {"name":"Charming Teddy Bear",
+    "effect":"Adds a chance to charm enemies when taking damage!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "33":
+  {"name":"Cobalt Firestone",
+    "effect":"Summons an aura that damages nearby enemies!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "34":
+  {"name":"Combo Gloves",
+    "effect":"Basic arcana have an extra combo!",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "35":
+  {"name":"Conqueror's Belt",
+    "effect":"All Rogues and Archers have their spells limited! Only one Conqueror item can be in effect at a time.",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "36":
+  {"name":"Conqueror's Cloak",
+    "effect":"All Mages and Summoners have their spells limited! Only one Conqueror item can be in effect at a time.",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "37":
+  {"name":"Conqueror's Helmet",
+    "effect":"All Knights and Lancers have their spells limited! Only one Conqueror item can be in effect at a time.",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "38":
+  {"name":"Covert Ops Mask",
+    "effect":"After evading an attack, all of your attacks will be critical hits for a short duration!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "39":
+  {"name":"Crimson Clover",
+    "effect":"Critical hit chance is increased for you and all enemies!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "40":
+  {"name":"Critical Placebos",
+    "effect":"Makes you believe all your attacks result in critical hits!",
+    "type":"Doctor",
+    "pool":""}
+,
+  "41":
+  {"name":"Cushioned Flip-flops",
+    "effect":"Damage taken is expended from your signature meter while you have sufficient charge to shield the attack!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "42":
+  {"name":"Dagger of Midas",
+    "effect":"Increases damage based on how much gold you currently have!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "43":
+  {"name":"Dark Katana",
+    "effect":"Designed by Artisan Mathosse Feadur, this relic triples the critical hit chance for all melee arcana!",
+    "type":"Offense",
+    "pool":"2"}
+,
+  "44":
+  {"name":"Dated Sunglasses",
+    "effect":"Enemy projectiles move slower, giving you more time to react!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "45":
+  {"name":"Deafening Cymbals",
+    "effect":"Destroys all projectiles in the area when hit by a projectile!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "46":
+  {"name":"Demi's Teapot",
+    "effect":"Increases the duration of buff arcana!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "47":
+  {"name":"Destructive Abacus",
+    "effect":"Defeating foes lowers active cooldowns!",
+    "type":"Misc",
+    "pool":"3"}
+,
+  "48":
+  {"name":"Devi's Bug Spray",
+    "effect":"Increases potency of your poison status effects!",
+    "type":"Offense",
+    "pool":"4"}
+,
+  "49":
+  {"name":"Dice of the Nemesis",
+    "effect":"Adds a small chance of dealing massive damage with your critical hits!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "50":
+  {"name":"Double Edged Cestus",
+    "effect":"Increase basic arcana damage! All other damage decreased.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "51":
+  {"name":"Double Toil",
+    "effect":"Reduces cooldowns by half but receive double damage!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "52":
+  {"name":"Double Trouble",
+    "effect":"Deal double damage but receive double damage!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "53":
+  {"name":"Ebon Wolf's Cloak",
+    "effect":"Increases fire and lightning arcana damage, but receive more damage from water and earth attacks!",
+    "type":"Offense",
+    "pool":"3"}
+,
+  "54":
+  {"name":"Elemental Pointes",
+    "effect":"Using a dash arcana immediately after another arcana lowers cooldowns for all arcana of the same element as your dash!",
+    "type":"Misc",
+    "pool":"4"}
+,
+  "55":
+  {"name":"Elven Ears",
+    "effect":"Remaining motionless for a short time causes you to disappear from sight!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "56":
+  {"name":"Equestricap",
+    "effect":"Designed by Artisan Tacobowl8, this relic allows you to look quite dashing as you gallop to max speed with ease!",
+    "type":"Defense",
+    "pool":"2"}
+,
+  "57":
+  {"name":"Euphie's Shawl",
+    "effect":"Increases armor!",
+    "type":"Defense",
+    "pool":"1"}
+,
+  "58":
+  {"name":"Evening Gloves",
+    "effect":"Basic arcana chains are completed automatically!",
+    "type":"Misc",
+    "pool":"3"}
+,
+  "59":
+  {"name":"Flak Gauntlet",
+    "effect":"Allows you to destroy enemy projectiles with melee basic arcana!",
+    "type":"Misc",
+    "pool":"2"}
+,
+  "60":
+  {"name":"Flashy Boots",
+    "effect":"Allows you to triple dash but lowers movement speed!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "61":
+  {"name":"Fortune Cookie",
+    "effect":"Randomly empowers an arcana at the beginning of each stage!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "62":
+  {"name":"Freezing Sprite Naya",
+    "effect":"Summons a sprite that freezes enemies! Only one sprite can be active at any time.",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "63":
+  {"name":"Friendship Bracelet",
+    "effect":"Increase damage and movement speed when you're with a true friend!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "64":
+  {"name":"Fuzzy Handwarmers",
+    "effect":"Prevents freeze status effect!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "65":
+  {"name":"Gaia's Shovel",
+    "effect":"Increases earth damage!",
+    "type":"Offense",
+    "pool":"2"}
+,
+  "66":
+  {"name":"Giant's Heart",
+    "effect":"Increases max health!",
+    "type":"Defense",
+    "pool":"1"}
+,
+  "67":
+  {"name":"Glass Cannon",
+    "effect":"Damage increased but max health is reduced!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "68":
+  {"name":"Glove of Midas",
+    "effect":"Increase gold gain for all wizards! Multiple gloves do not stack.",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "69":
+  {"name":"Golden Armor of Envy",
+    "effect":"Increases armor but store prices are increased!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "70":
+  {"name":"Golden Saber of Envy",
+    "effect":"Increases damage but store prices are increased!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "71":
+  {"name":"Greased Boots",
+    "effect":"Increases the distances traveled by dash arcana!",
+    "type":"Defense",
+    "pool":"1"}
+,
+  "72":
+  {"name":"Grimoire of Ruin",
+    "effect":"Increases the damage of summoned agents!",
+    "type":"Misc",
+    "pool":"4"}
+,
+  "73":
+  {"name":"Gummy Vitamins",
+    "effect":"Prevents poison status effect!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "74":
+  {"name":"Health Care Card",
+    "effect":"Receive a discount whenever you purchase potions from the merchant!",
+    "type":"Doctor",
+    "pool":""}
+,
+  "75":
+  {"name":"Heavy Travel Jacket",
+    "effect":"Increases armor for each relic held!",
+    "type":"Defense",
+    "pool":"3"}
+,
+  "76":
+  {"name":"Horned Halo",
+    "effect":"Revive with low health when defeated but consumes half of current health when picked up! This relic is destroyed on use.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "77":
+  {"name":"Hummingbird Feather",
+    "effect":"Briefly hover over pits!",
+    "type":"Defense",
+    "pool":"4"}
+,
+  "78":
+  {"name":"Hunter's Stiletto",
+    "effect":"Increase damage against foes that are inflicted with a status ailment.",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "79":
+  {"name":"Hyperbolic Train",
+    "effect":"Signature charges faster at low health!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "80":
+  {"name":"Idealist's Mirror",
+    "effect":"All arcana are empowered when at full health!",
+    "type":"Offense",
+    "pool":"3"}
+,
+  "81":
+  {"name":"Ifrit's Matchstick",
+    "effect":"Increases fire damage!",
+    "type":"Offense",
+    "pool":"2"}
+,
+  "82":
+  {"name":"Igniting Sprite Vesa",
+    "effect":"Summons a sprite that burns enemies! Only one sprite can be active at any time.",
+    "type":"Misc",
+    "pool":"3"}
+,
+  "83":
+  {"name":"Indra's Copper Pipe",
+    "effect":"Increases duration of your shock status effects!",
+    "type":"Offense",
+    "pool":"4"}
+,
+  "84":
+  {"name":"Infinity Marble",
+    "effect":"Signature charge stays active until used!",
+    "type":"Misc",
+    "pool":"2"}
+,
+  "85":
+  {"name":"Insignia of Legend",
+    "effect":"A crest presented only to those who have cleared the Chaos Trials!",
+    "type":"Misc",
+    "pool":""}
+,
+  "86":
+  {"name":"Jewelry Box",
+    "effect":"Picking up chaos gems heals for a small amount. Excludes gems collected from Council members.",
+    "type":"Defense",
+    "pool":"3"}
+,
+  "87":
+  {"name":"Journal of Midas",
+    "effect":"Gain gold when defeating consecutive enemies without taking damage!",
+    "type":"Misc",
+    "pool":"4"}
+,
+  "88":
+  {"name":"Kali's Flower Diadem",
+    "effect":"When taking damage that would defeat you, gain full signature charge and briefly become immune to defeat!",
+    "type":"Defense",
+    "pool":"3"}
+,
+  "89":
+  {"name":"Large Red Button",
+    "effect":"Regain full health every time an exit portal is used! Max health is reduced and health potions have no effect.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "90":
+  {"name":"Leemo's Leaf",
+    "effect":"Evade all attacks while dashing!",
+    "type":"Defense",
+    "pool":"4"}
+,
+  "91":
+  {"name":"Lei's Drum",
+    "effect":"Release a burst of lightning when taking damage!",
+    "type":"Defense",
+    "pool":"2"}
+,
+  "92":
+  {"name":"Limited Edition Robe",
+    "effect":"Reduces damage taken to a maximum of 10% of max health!",
+    "type":"Defense",
+    "pool":"4"}
+,
+  "93":
+  {"name":"Lotus Froststone",
+    "effect":"Summons an aura that freezes nearby enemies.",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "94":
+  {"name":"Memory Chainmail",
+    "effect":"Memorizes the last three attacks taken and reduces damage from attacks of the same type!",
+    "type":"Defense",
+    "pool":"3"}
+,
+  "95":
+  {"name":"Merchant's Cart",
+    "effect":"Increase damage based on number of relics in inventory.",
+    "type":"Offense",
+    "pool":"4"}
+,
+  "96":
+  {"name":"Mercury's Sandals",
+    "effect":"Increases movement speed!",
+    "type":"Defense",
+    "pool":"1"}
+,
+  "97":
+  {"name":"Messy Prescription",
+    "effect":"Increases healing received from all sources!",
+    "type":"Doctor",
+    "pool":""}
+,
+  "98":
+  {"name":"Mirror Shield",
+    "effect":"Summons a shield that reflects one projectile!",
+    "type":"Defense",
+    "pool":"2"}
+,
+  "99":
+  {"name":"Museum Ticket",
+    "effect":"A ticket to Lanova Museum's newly opened Chaos Trials exhibit!",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "100":
+  {"name":"Mystic Monopole",
+    "effect":"Increases knockback when striking foes!",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "101":
+  {"name":"Nerite Shell",
+    "effect":"Adds a chance to slow foes!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "102":
+  {"name":"Neve's Citrine",
+    "effect":"Holding seven lightning arcana increases critical chance! All arcana shocks foes!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "103":
+  {"name":"Neve's Emerald",
+    "effect":"Holding seven earth arcana increase health and armor and lowers stun and knockback!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "104":
+  {"name":"Neve's Quartz",
+    "effect":"Holding seven air arcana increases movement speed and evasion. All arcana slows foes!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "105":
+  {"name":"Neve's Ruby",
+    "effect":"Holding seven fire arcana increases damage! All arcana burns foes!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "106":
+  {"name":"Neve's Sapphire",
+    "effect":"Holding seven water arcana reduces all cooldowns and increases healing!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "107":
+  {"name":"Nocturnal Sundial",
+    "effect":"Adds a chance that an arcana will not go on cooldown after use!",
+    "type":"Misc",
+    "pool":"4"}
+,
+  "108":
+  {"name":"Nog's Heavenly Boots",
+    "effect":"Adds a significant chance to evade attacks but take double damage!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "109":
+  {"name":"Noxious Dappercap",
+    "effect":"Adds a chance to poison foes!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "110":
+  {"name":"Ominous Loan Note",
+    "effect":"Immediately receive a large sum of gold! All gold gained, with interest, will go toward paying off this debt.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "111":
+  {"name":"Overpriced Insurance",
+    "effect":"Expend all gold at the start of each stage and heal for a fraction of the expended amount.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "112":
+  {"name":"Paronomasicon",
+    "effect":"Your attacks on council members are more pun-ishing! Enemy attacks pack an extra pun-ch.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "113":
+  {"name":"Pathfinder's Knapsack",
+    "effect":"On clearing the floor, receive a heal based on the map reveal percentage.",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "114":
+  {"name":"Pathfinder's Map",
+    "effect":"Reveals the layout and main points of interest of the Chaos Trials!",
+    "type":"Misc",
+    "pool":"3"}
+,
+  "115":
+  {"name":"Pazu's Favorite Hat",
+    "effect":"Revive with low health when defeated! Hat can also create health orbs when dropped. This relic is destroyed on use.",
+    "type":"Defense",
+    "pool":"3"}
+,
+  "116":
+  {"name":"Perfect Time Crystal",
+    "effect":"Signature damage, charge rate, and decay rate increased!",
+    "type":"Offense",
+    "pool":""}
+,
+  "117":
+  {"name":"Permafrost Cube",
+    "effect":"Adds a chance to freeze foes!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "118":
+  {"name":"Phoenix Talon",
+    "effect":"Adds a chance to burn foes!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "119":
+  {"name":"Phyyrnx's Hourglass",
+    "effect":"Designed by Artisan PerdyDarnSavvy, this relic activates when taking damage at low health and briefly removes the cooldown on all arcana!",
+    "type":"Misc",
+    "pool":"2"}
+,
+  "120":
+  {"name":"Plaguing Sprite Dria",
+    "effect":"Summons a sprite that poisons enemies! Only one sprite can be active at any time.",
+    "type":"Misc",
+    "pool":"2"}
+,
+  "121":
+  {"name":"Poem of Fiery Rime",
+    "effect":"Increases fire and ice damage! Adds a chance to freeze and burn foes to fire and ice arcana, respectively.",
+    "type":"Offense",
+    "pool":""}
+,
+  "122":
+  {"name":"Pop-up Primer",
+    "effect":"Increases the number of summoned agents, but lowers their health!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "123":
+  {"name":"Puffy Parka",
+    "effect":"Evade all critical hits!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "124":
+  {"name":"Raffle Ticket",
+    "effect":"Adds a chance that an item purchased in the Chaos Trials will be free of charge.",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "125":
+  {"name":"Raspberry Cookie Box",
+    "effect":"Health orbs drop more frequently!",
+    "type":"Defense",
+    "pool":"1"}
+,
+  "126":
+  {"name":"Reactive Vinemail",
+    "effect":"Releases a grove of rooting vines when taking damage!",
+    "type":"Defense",
+    "pool":"3"}
+,
+  "127":
+  {"name":"Regenerative Inkwell",
+    "effect":"Using a fully charged signature arcana heals you instead of producing a signature spell!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "128":
+  {"name":"Reinforced Bracers",
+    "effect":"Your projectiles destroy any other projectiles they strike!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "129":
+  {"name":"Relic Rewards Card",
+    "effect":"All gold costs for relics are discounted!",
+    "type":"Misc",
+    "pool":"2"}
+,
+  "130":
+  {"name":"Renewing Potion Vial",
+    "effect":"Regain a small amount of health when teleporting to the next area!",
+    "type":"Doctor",
+    "pool":""}
+,
+  "131":
+  {"name":"Resolute Svalinn",
+    "effect":"Increases resistance to fire based attacks!",
+    "type":"Defense",
+    "pool":"2"}
+,
+  "132":
+  {"name":"Ring of Recycling",
+    "effect":"Gain a shield every time a charged signature is not activated and times out.",
+    "type":"Defense",
+    "pool":"4"}
+,
+  "133":
+  {"name":"Ring of Reserves",
+    "effect":"Adds more uses to all multi-use arcana!",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "134":
+  {"name":"Roxel's Pendulum",
+    "effect":"Reduces all cooldowns!",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "135":
+  {"name":"Royal Flush",
+    "effect":"Equipping arcana of the same element increases damage!",
+    "type":"Offense",
+    "pool":"3"}
+,
+  "136":
+  {"name":"Rudra's Pinwheel",
+    "effect":"Increases air damage!",
+    "type":"Offense",
+    "pool":"2"}
+,
+  "137":
+  {"name":"Sano's Headband",
+    "effect":"You can no longer be interrupted while casting an arcana!",
+    "type":"Misc",
+    "pool":"4"}
+,
+  "138":
+  {"name":"Scissors of Vitality",
+    "effect":"Sacrifice all standard arcana in your hand to revive from defeat!",
+    "type":"Defense",
+    "pool":"4"}
+,
+  "139":
+  {"name":"Secret Wild Card",
+    "effect":"Your signature will take longer to charge, but can now be used twice on a single charge!",
+    "type":"Offense",
+    "pool":"4"}
+,
+  "140":
+  {"name":"Sharpened Stylus",
+    "effect":"Increases damage but signature can no longer be charged!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "141":
+  {"name":"Shiva's Water Bottle",
+    "effect":"Increases water damage!",
+    "type":"Offense",
+    "pool":"2"}
+,
+  "142":
+  {"name":"Sidewinder's Badge",
+    "effect":"All melee basic arcana have a secondary hit that deals reduced damage!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "143":
+  {"name":"Silver Spinning Top",
+    "effect":"Increases the activation speed of arcana but slows movement speed!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "144":
+  {"name":"Singing Bowl",
+    "effect":"Not using arcana for a short period of time causes your next spell to be a critical hit!",
+    "type":"Offense",
+    "pool":"3"}
+,
+  "145":
+  {"name":"Sinister Ledger",
+    "effect":"Designed by Artisan Steven Wu, this relic increases all damage for every enemy defeated, but loses effectiveness when taking damage.",
+    "type":"Offense",
+    "pool":"2"}
+,
+  "146":
+  {"name":"Sleepy Thunderstone",
+    "effect":"Summons an aura that calls down lightning on nearby enemies.",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "147":
+  {"name":"Sparking Sprite Etra",
+    "effect":"Summons a sprite that shocks enemies! Only one sprite can be active at any time.",
+    "type":"Misc",
+    "pool":"4"}
+,
+  "148":
+  {"name":"Special Snowflake",
+    "effect":"Defeated enemies have a chance to explode and freeze nearby enemies!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "149":
+  {"name":"Spell Thief's Socks",
+    "effect":"Increase movement speed everytime an arcana is used! Speed is increased for each arcana on cooldown!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "150":
+  {"name":"Spice Rack",
+    "effect":"Using an arcana of a different element reduces the cooldown of the previously used arcana.",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "151":
+  {"name":"Spiked Emergency Kit",
+    "effect":"Regenerate health while at critically low health! Max health is reduced.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "152":
+  {"name":"Stanza of Flames",
+    "effect":"All fire arcana cause burning but take double damage from water spells! Second half of the Poem of Fiery Rime.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "153":
+  {"name":"Stanza of Frost",
+    "effect":"Increases ice damage! First half of the Poem of Fiery Rime.",
+    "type":"Offense",
+    "pool":"3"}
+,
+  "154":
+  {"name":"Stygian Turtle Shell",
+    "effect":"Briefly become invulnerable after taking damage in quick succession!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "155":
+  {"name":"Super Carrot Cake",
+    "effect":"Taking damage increases your max health up to a certain limit!",
+    "type":"Defense",
+    "pool":"2"}
+,
+  "156":
+  {"name":"Super Sunscreen",
+    "effect":"Prevents burn status effect!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "157":
+  {"name":"Supply Crate",
+    "effect":"The relic and arcana stores will instantly restock after purchase! Health potions are of short supply and will not be restocked.",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "158":
+  {"name":"Surefire Rocket",
+    "effect":"Signature charge no longer decays while building up!",
+    "type":"Misc",
+    "pool":"1"}
+,
+  "159":
+  {"name":"Takeout Box",
+    "effect":"When healed for more than your maximum health, gain a shield equal to half of the excess heal amount.",
+    "type":"Defense",
+    "pool":"4"}
+,
+  "160":
+  {"name":"Tapping Gloves",
+    "effect":"Following up a basic arcana with another arcana increases its critical hit chance!",
+    "type":"Offense",
+    "pool":"4"}
+,
+  "161":
+  {"name":"Tea of Mercy",
+    "effect":"All heals increase your max health up to a certain limit!",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "162":
+  {"name":"Tears of Midas",
+    "effect":"Gain gold when taking damage!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "163":
+  {"name":"Tesla Coil",
+    "effect":"Adds a chance to shock foes!",
+    "type":"Offense",
+    "pool":"1"}
+,
+  "164":
+  {"name":"Thesis on Defense",
+    "effect":"Every point of damage taken adds a page to this thesis. Every 200 pages reduces all damage taken by 1. (Maximum 1000 pages)",
+    "type":"Defense",
+    "pool":"3"}
+,
+  "165":
+  {"name":"Three Gorges Bulwark",
+    "effect":"Increases resistance to water based attacks!",
+    "type":"Defense",
+    "pool":"2"}
+,
+  "166":
+  {"name":"Tiny Crocodile Heart",
+    "effect":"Reduces max health but increases max health for each enemy defeated!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "167":
+  {"name":"Tortoise Shield",
+    "effect":"Increase armor but decrease damage!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "168":
+  {"name":"Tozy's Pocket Watch",
+    "effect":"Designed by Artisan Curt 'Tozy' Toczydlowski, this relic reduces cooldowns but also reduces signature charge rate!",
+    "type":"Misc",
+    "pool":"2"}
+,
+  "169":
+  {"name":"Tracking Suit",
+    "effect":"Arcana of matching elements increases resistance to that element! Requires two or more arcana of the same element.",
+    "type":"Defense",
+    "pool":"5"}
+,
+  "170":
+  {"name":"Unicorn Tail",
+    "effect":"Rainbows!",
+    "type":"Misc",
+    "pool":"5"}
+,
+  "171":
+  {"name":"Vampire's Eyeglasses",
+    "effect":"Regenerate health every time you land a critical hit!",
+    "type":"Defense",
+    "pool":"1"}
+,
+  "172":
+  {"name":"Vampire's Fangs",
+    "effect":"Defeating enemies regenerates health but max health is reduced!",
+    "type":"Cursed",
+    "pool":""}
+,
+  "173":
+  {"name":"Volatile Gemstone",
+    "effect":"Signature charge rate and decay are increased dramatically but charged signature damage is reduced! Shell of the Perfect Time Crystal.",
+    "type":"Cursed",
+    "pool":""}
+,
+  "174":
+  {"name":"Wallet of Vigor",
+    "effect":"Enables you to purchase items with health when you don't have sufficient gold.",
+    "type":"Misc",
+    "pool":"4"}
+,
+  "175":
+  {"name":"Wanderer's Mechanism",
+    "effect":"Increases the damage of your signature arcana! Core of the Perfect Time Crystal.",
+    "type":"Offense",
+    "pool":"3"}
+,
+  "176":
+  {"name":"Whimsical Explodium",
+    "effect":"Adds a chance that enemies will explode when defeated!",
+    "type":"Offense",
+    "pool":"5"}
+,
+  "177":
+  {"name":"Yuna's Storybook",
+    "effect":"Increases the duration of summoned agents!",
+    "type":"Misc",
+    "pool":"3"}
+},
+  "spells":{
+    "1":
+    {"name":"Air Burst",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Dash forward on a burst of air!",
+      "enhanced":"Creates shockwaves that buffet foes in your path!",
+      "type":"Air",
+      "pool":"1"}
+  ,
+    "2":
+    {"name":"Air Spinner",
+      "subtype":"",
+      "slot":"Basic",
+      "effect":"Throw a disc of air into orbit around you!",
+      "enhanced":"Throws two discs at the same time!",
+      "type":"Air",
+      "pool":"3"}
+  ,
+    "3":
+    {"name":"Airborne Slam",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Rocket into the sky on an air jet before slamming into the ground to create a violent burst of wind!",
+      "enhanced":"Creates smaller wind bursts that ripples forward after impact!",
+      "type":"Air",
+      "pool":"4"}
+  ,
+    "4":
+    {"name":"Breaking Twister",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Unleash a slow moving burst of air that slows and damages all nearby enemies!",
+      "enhanced":"Twister stops shortly after being unleashed but continues to spin in place!",
+      "type":"Air",
+      "pool":"3"}
+  ,
+    "5":
+    {"name":"Cyclone Boomerang",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Hurl a rapidly revolving air current that returns to you!",
+      "enhanced":"Creates an additional boomerang before returning to you!",
+      "type":"Air",
+      "pool":"1"}
+  ,
+    "6":
+    {"name":"Dragon Blast",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a dragon formed of wind to draw in enemies before blasting them away!",
+      "enhanced":"Increases the blast area!",
+      "type":"Air",
+      "pool":"5"}
+  ,
+    "7":
+    {"name":"Evading Zephyr",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a current of air that causes all incoming attacks to miss while you are moving or using basic arcana!",
+      "enhanced":"Increases movement speed and allows you to run over pits!",
+      "type":"Air",
+      "pool":"5"}
+  ,
+    "8":
+    {"name":"Furious Tempest",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Hold to charge up and release a stormy ball of wind that implodes at maximum charge!",
+      "enhanced":"Charges up twice as quickly!",
+      "type":"Air",
+      "pool":"5"}
+  ,
+    "9":
+    {"name":"Gust Burst",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Dash forward with such force that enemies in the area are pulled into your wake!",
+      "enhanced":"Creates a secondary burst on landing!",
+      "type":"Air",
+      "pool":"4"}
+  ,
+    "10":
+    {"name":"Gust Volley",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Release a volley of piercing winds in a cone!",
+      "enhanced":"Fires additional projectiles!",
+      "type":"Air",
+      "pool":"4"}
+  ,
+    "11":
+    {"name":"Heroic Leap",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso Michael Belloy, this arcana allows you to seize a foe and leap high into the air before crashing down!",
+      "enhanced":"Increases the distance at which you can grab foes!",
+      "type":"Air",
+      "pool":"2"}
+  ,
+    "12":
+    {"name":"Mach Stunner",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Fire off a series of sound waves that stun any enemies they strike!",
+      "enhanced":"Increases the distance traveled!",
+      "type":"Air",
+      "pool":"5"}
+  ,
+    "13":
+    {"name":"Mentis Imperium",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso Claire Astrid, this arcana allows you to confuse foes around you, causing them to attack each other!",
+      "enhanced":"Increases the confusion duration!",
+      "type":"Air",
+      "pool":"2"}
+  ,
+    "14":
+    {"name":"Rushing Typhoon",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Fly forward with a ring of tumbling winds that locks onto the first enemy struck!",
+      "enhanced":"Increases the tumbling duration!",
+      "type":"Air",
+      "pool":"5"}
+  ,
+    "15":
+    {"name":"Scales of Babylon",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso Sean 'Ariamaki' Riedinger, this arcana allows you to lower active cooldowns and steal speed from enemies by blasting them with a burst of air!",
+      "enhanced":"Increases the cooldown reduction!",
+      "type":"Air",
+      "pool":"2"}
+  ,
+    "16":
+    {"name":"Shearing Chain",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Rush forward while unleashing a flurry of wind slashes!",
+      "enhanced":"Slashes are larger and more numerous!",
+      "type":"Air",
+      "pool":"2"}
+  ,
+    "17":
+    {"name":"Spiraling Typhoon",
+      "subtype":"Melee",
+      "slot":"Signature",
+      "effect":"Draw in foes with a ring of tumbling winds before striking them away!",
+      "enhanced":"Increases tumble duration and final blow knocks foes further away!",
+      "type":"Air",
+      "pool":"3"}
+  ,
+    "18":
+    {"name":"Storm Draft",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Release a burst of air that drafts foes and stuns them against walls!",
+      "enhanced":"Destroys all enemy projectiles!",
+      "type":"Air",
+      "pool":"4"}
+  ,
+    "19":
+    {"name":"Tearing Whirlwind",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Rapidly spin forward and pull nearby enemies into your wake!",
+      "enhanced":"Move and spin even faster, dealing more damage!",
+      "type":"Air",
+      "pool":"3"}
+  ,
+    "20":
+    {"name":"Ward of Winds",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a ward of air that slows enemies and increases all air damage done in the area!",
+      "enhanced":"Ward area is increased and also increases fire damage done in the area!",
+      "type":"Air",
+      "pool":"5"}
+  ,
+    "21":
+    {"name":"Whirling Tornado",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Unleash a protective vortex of fierce winds!",
+      "enhanced":"Whirling duration increased!",
+      "type":"Air",
+      "pool":"3"}
+  ,
+    "22":
+    {"name":"Whirling Wind Agent",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Conjure an agent of wind that buffets foes with whirling winds!",
+      "enhanced":"Agents move and attack more quickly!",
+      "type":"Air",
+      "pool":"4"}
+  ,
+    "23":
+    {"name":"Wind Flurry",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Unleash a quick salvo of cutting winds!",
+      "enhanced":"Projectiles pierce enemies but attack range is lowered!",
+      "type":"Air",
+      "pool":"1"}
+  ,
+    "24":
+    {"name":"Wind Slash",
+      "subtype":"Melee",
+      "slot":"Basic",
+      "effect":"Summon arcs of slashing wind!",
+      "enhanced":"Final slash creates a piercing wind that negates projectiles!",
+      "type":"Air",
+      "pool":"1"}
+  ,
+    "25":
+    {"name":"Absolute Finale",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Throws out an orb of primal chaos that erases the first enemy hit from existence! Enemies that cannot be erased will take heavy damage instead.",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "26":
+    {"name":"Arcane Intervention",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso Kaleb Daugherty, this arcana allows you teleport all nearby enemies into a chaos storm!",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "27":
+    {"name":"Chaos Crusher",
+      "subtype":"Melee",
+      "slot":"Basic",
+      "effect":"Create a chaotic rift to strike foes before compressing it and firing it forward!",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "28":
+    {"name":"Chaotic Rift",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Dash through a rift torn open by primal chaos!",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "29":
+    {"name":"Distortion Beam",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a beam of chaos energy!",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "30":
+    {"name":"Mortal Coil",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso Nathan 'MortisXII' Cannell, this arcana allows you to impale all enemies in a line with a spear of chaos and drag them to you!",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "31":
+    {"name":"Null Parade",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Throw out a cluster of chaos orbs that explode on landing!",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "32":
+    {"name":"Phantom Brigade",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Summon a legion of Chaos Knights that rush forth and attack enemies!",
+      "enhanced":"Not available",
+      "type":"Chaos",
+      "pool":""}
+  ,
+    "33":
+    {"name":"Aegis Charge",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Shield incoming attacks as you charge forward, stunning enemies in your path!",
+      "enhanced":"Increases the durability, damage, and speed of your aegis!",
+      "type":"Earth",
+      "pool":"5"}
+  ,
+    "34":
+    {"name":"Dragon Dive",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a tunneling dragon that drives away foes!",
+      "enhanced":"Summons dual dragons that travel further!",
+      "type":"Earth",
+      "pool":"1"}
+  ,
+    "35":
+    {"name":"Earth Knuckles",
+      "subtype":"Melee",
+      "slot":"Basic",
+      "effect":"Pummel foes with gigantic earth fists!",
+      "enhanced":"Becomes a single hit arcana with an even bigger fist!",
+      "type":"Earth",
+      "pool":"1"}
+  ,
+    "36":
+    {"name":"Earth Stomp Agent",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Conjure an agent of earth that crushes foes!",
+      "enhanced":"Agent has a double stomp!",
+      "type":"Earth",
+      "pool":"4"}
+  ,
+    "37":
+    {"name":"Earthen Aegis",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Form a protective ring of stone shields!",
+      "enhanced":"Summons additional shields!",
+      "type":"Earth",
+      "pool":"2"}
+  ,
+    "38":
+    {"name":"Earthquake Axe",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Hurl a giant stone axe into the air that crashes down on enemies!",
+      "enhanced":"Increases damage and crash area of axes!",
+      "type":"Earth",
+      "pool":"4"}
+  ,
+    "39":
+    {"name":"Embracing Vines",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Cultivate a row of entwining vines that roots foes!",
+      "enhanced":"Vines poison any foes they root!",
+      "type":"Earth",
+      "pool":"5"}
+  ,
+    "40":
+    {"name":"Fadeaway Rhythm",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Mark foes with a series of rocky strikes that explode as you leap back!",
+      "enhanced":"Adds an extra strike to the rhythm!",
+      "type":"Earth",
+      "pool":"5"}
+  ,
+    "41":
+    {"name":"Grasping Earth",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso Laurent Sweert, this arcana allows you to grasp all foes in the area with giant stone fists!",
+      "enhanced":"Starts off at max radius and crushes enemies more quickly!",
+      "type":"Earth",
+      "pool":"2"}
+  ,
+    "42":
+    {"name":"Knockout Boulder",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Hurl a boulder that stuns foes!",
+      "enhanced":"Boulder explodes on impact and damages nearby foes!",
+      "type":"Earth",
+      "pool":"5"}
+  ,
+    "43":
+    {"name":"Magnetic Follow-up",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Generates a magnetic aura that causes basic arcana to hurl stone projectiles!",
+      "enhanced":"Instantly summons a ring of stones that briefly stuns enemies they strike!",
+      "type":"Earth",
+      "pool":"4"}
+  ,
+    "44":
+    {"name":"Obsidian Cascade",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Unleash a cascade of obsidian daggers!",
+      "enhanced":"Daggers deal more damage and stun enemies!",
+      "type":"Earth",
+      "pool":"3"}
+  ,
+    "45":
+    {"name":"Rippling Rupture",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Rupture the earth with rapidly tunneling vines to continually damage enemies in a line!",
+      "enhanced":"Increases rippling duration and distance covered by vines!",
+      "type":"Earth",
+      "pool":"1"}
+  ,
+    "46":
+    {"name":"Rock n' Roll",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Summon a pair of rocky buzzsaws that tear forward!",
+      "enhanced":"Summons an additional buzzsaw!",
+      "type":"Earth",
+      "pool":"4"}
+  ,
+    "47":
+    {"name":"Seismic Entry",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Launch into the air and crash down on all nearby foes to stun them!",
+      "enhanced":"Launches even higher and summons rippling earth waves on landing!",
+      "type":"Earth",
+      "pool":"2"}
+  ,
+    "48":
+    {"name":"Shattering Strike",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Strike a boulder to shatter it into a ring of shrapnel!",
+      "enhanced":"Creates additional shrapnel!",
+      "type":"Earth",
+      "pool":"3"}
+  ,
+    "49":
+    {"name":"Spike Track",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Tear forward and leave behind a trail of earthen spikes!",
+      "enhanced":"Spikes continue to form even after dash is complete!",
+      "type":"Earth",
+      "pool":"4"}
+  ,
+    "50":
+    {"name":"Stalwart Defenders",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Designed by Virtuosos Shamrock63 and Slamuel, this arcana allows you to form a quartet of chess knights that leap to your defense!",
+      "enhanced":"Knights jump in place for a secondary shock after their initial leap!",
+      "type":"Earth",
+      "pool":"2"}
+  ,
+    "51":
+    {"name":"Stone Shot",
+      "subtype":"",
+      "slot":"Basic",
+      "effect":"Rapidly fire stones!",
+      "enhanced":"Reduces damage but shoots two stones at a time!",
+      "type":"Earth",
+      "pool":"3"}
+  ,
+    "52":
+    {"name":"Tectonic Drill",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Drive forward and rock enemies with a giant drill made of stone!",
+      "enhanced":"Adds an additional drill charge!",
+      "type":"Earth",
+      "pool":"3"}
+  ,
+    "53":
+    {"name":"Terra Ring",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Pulverize the ground to summon cascading rings of earth spikes!",
+      "enhanced":"Summons all rings simultaneously but deals less damage overall!",
+      "type":"Earth",
+      "pool":"5"}
+  ,
+    "54":
+    {"name":"Toxic Bolas",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Hurl bolas made of toxic vines to entangle and poison foes!",
+      "enhanced":"Bolas no longer stop upon hitting a foe!",
+      "type":"Earth",
+      "pool":"4"}
+  ,
+    "55":
+    {"name":"Toxic Trap",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Tear forward while throwing behind a toxic bomb that poisons foes!",
+      "enhanced":"Throw an extra toxic bomb forward!",
+      "type":"Earth",
+      "pool":"3"}
+  ,
+    "56":
+    {"name":"Ward of Stones",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Form a ward of earth that periodically stuns foes and increases all earth damage done in the area!",
+      "enhanced":"Ward area is increased and also increases air damage done in the area!",
+      "type":"Earth",
+      "pool":"5"}
+  ,
+    "57":
+    {"name":"Blazing Blitz",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Dash forward and pummel a foe with barrage of fiery punches!",
+      "enhanced":"Increases punch count!",
+      "type":"Fire",
+      "pool":"3"}
+  ,
+    "58":
+    {"name":"Blazing Lariat",
+      "subtype":"Melee",
+      "slot":"Signature",
+      "effect":"Spin forward while swinging a blazing whip of flames!",
+      "enhanced":"Increases flame radius!",
+      "type":"Fire",
+      "pool":"3"}
+  ,
+    "59":
+    {"name":"Blazing Onslaught",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Dash forward, grabbing all enemies in your path before unleashing an onslaught of fireballs!",
+      "enhanced":"Increases fireball count!",
+      "type":"Fire",
+      "pool":"5"}
+  ,
+    "60":
+    {"name":"Blazing Vault",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Blast into the air and come crashing down into a fiery explosion!",
+      "enhanced":"Start the vault with an explosive bang!",
+      "type":"Fire",
+      "pool":"4"}
+  ,
+    "61":
+    {"name":"Bouncing Blaze",
+      "subtype":"",
+      "slot":"Basic",
+      "effect":"Fling bouncing balls of fire!",
+      "enhanced":"Fireballs pass through enemies!",
+      "type":"Fire",
+      "pool":"4"}
+  ,
+    "62":
+    {"name":"Crashing Meteor",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Call down a meteor from the skies!",
+      "enhanced":"Meteors crash down much quicker!",
+      "type":"Fire",
+      "pool":"5"}
+  ,
+    "63":
+    {"name":"Dragon Arc",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a torrent of fiery dragons!",
+      "enhanced":"Fires two dragons simultaneously and increases number of charges!",
+      "type":"Fire",
+      "pool":"1"}
+  ,
+    "64":
+    {"name":"Exploding Fireball",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Fire a massive fireball that explodes on impact!",
+      "enhanced":"Increases the blast radius!",
+      "type":"Fire",
+      "pool":"1"}
+  ,
+    "65":
+    {"name":"Explosive Charge",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Charge through enemies, marking them with a timed explosive!",
+      "enhanced":"Explosions burn enemies!",
+      "type":"Fire",
+      "pool":"5"}
+  ,
+    "66":
+    {"name":"Fire Wall",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Ignite the ground to create a blazing trail of flames!",
+      "enhanced":"Wall forms quicker and extends further!",
+      "type":"Fire",
+      "pool":"2"}
+  ,
+    "67":
+    {"name":"Flame Breath",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Blast away enemies with a breath of fire!",
+      "enhanced":"Ignites all enemies it hits!",
+      "type":"Fire",
+      "pool":"4"}
+  ,
+    "68":
+    {"name":"Flame Cleaver",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Carve out a wave of flames that ignites all enemies in its path!",
+      "enhanced":"Cleave with both hands to create a wider wave that travels further!",
+      "type":"Fire",
+      "pool":"5"}
+  ,
+    "69":
+    {"name":"Flame Fusion",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Fire off a fireball, followed by a flaming arrow that can be fused to release a burst of arrows!",
+      "enhanced":"Fusion releases even more arrows!",
+      "type":"Fire",
+      "pool":"5"}
+  ,
+    "70":
+    {"name":"Flame Strike",
+      "subtype":"Melee",
+      "slot":"Basic",
+      "effect":"Blast enemies away with plumes of flames!",
+      "enhanced":"Executes quicker and affects a larger area!",
+      "type":"Fire",
+      "pool":"1"}
+  ,
+    "71":
+    {"name":"Flare Rush",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Rush forward and conjure a volley of accompanying flares!",
+      "enhanced":"Summons additional flares!",
+      "type":"Fire",
+      "pool":"4"}
+  ,
+    "72":
+    {"name":"Fuelled Berserk",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Enter a burning rage that speeds up basic arcana!",
+      "enhanced":"Explodes when activated to burn foes in the area!",
+      "type":"Fire",
+      "pool":"2"}
+  ,
+    "73":
+    {"name":"Homing Flares",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Ignite a halo of flares that home in on the nearest foe!",
+      "enhanced":"Summons additional flares and increases duration!",
+      "type":"Fire",
+      "pool":"2"}
+  ,
+    "74":
+    {"name":"Ignition Drive",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Blast enemies away with a chain of explosions!",
+      "enhanced":"Final explosion ignites the area on fire!",
+      "type":"Fire",
+      "pool":"3"}
+  ,
+    "75":
+    {"name":"Raging Inferno",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Hold to charge up and release an expanding ball of fire that explodes at maximum charge!",
+      "enhanced":"Charges up twice as quickly!",
+      "type":"Fire",
+      "pool":"5"}
+  ,
+    "76":
+    {"name":"Rapid Fire Agent",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Conjure an agent of fire that engages foes with a rapid barrage of fireballs!",
+      "enhanced":"Agents attack more often but deals less damage!",
+      "type":"Fire",
+      "pool":"4"}
+  ,
+    "77":
+    {"name":"Searing Crown",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Blast away enemies around you with a burning halo of flames!",
+      "enhanced":"Flames last longer, dealing more damage!",
+      "type":"Fire",
+      "pool":"4"}
+  ,
+    "78":
+    {"name":"Searing Rush",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Rush forward and leave flames in your wake!",
+      "enhanced":"Adds an explosion on landing that burns foes!",
+      "type":"Fire",
+      "pool":"2"}
+  ,
+    "79":
+    {"name":"Tracer Barrage",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Fire off a volley of arcing tracers that return to you!",
+      "enhanced":"Tracers are larger and more numerous!",
+      "type":"Fire",
+      "pool":"3"}
+  ,
+    "80":
+    {"name":"Ward of Flames",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Form a ward of fire that damages enemies and increases all fire damage done in the area!",
+      "enhanced":"Ward area is increased and also increases water damage done in the area!",
+      "type":"Fire",
+      "pool":"5"}
+  ,
+    "81":
+    {"name":"Arc Sphere",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Generate a stationary sphere of arcing current!",
+      "enhanced":"Sphere is larger and has a longer duration!",
+      "type":"Lightning",
+      "pool":"5"}
+  ,
+    "82":
+    {"name":"Ball Lightning",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Hold to charge up and release a devastating ball of lightning that shocks at maximum charge!",
+      "enhanced":"Charges up twice as quickly!",
+      "type":"Lightning",
+      "pool":"3"}
+  ,
+    "83":
+    {"name":"Bolt Claymore",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Release a charged orb that can be detonated to strike all nearby foes with lightning!",
+      "enhanced":"Greatly increases the orb's maximum area of effect!",
+      "type":"Lightning",
+      "pool":"5"}
+  ,
+    "84":
+    {"name":"Bolt Rail",
+      "subtype":"",
+      "slot":"Basic",
+      "effect":"Direct a short stream of lightning!",
+      "enhanced":"Final burst is larger and shocks foes!",
+      "type":"Lightning",
+      "pool":"1"}
+  ,
+    "85":
+    {"name":"Bouncing Surge",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Conjure a spear of lightning that bounces between enemies!",
+      "enhanced":"Spear bounces more times and shocks for a longer duration!",
+      "type":"Lightning",
+      "pool":"2"}
+  ,
+    "86":
+    {"name":"Circuit Line",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Jolt ahead, leaving behind electric orbs that are chained together after a short delay!",
+      "enhanced":"Lightning chains deal additional damage!",
+      "type":"Lightning",
+      "pool":"3"}
+  ,
+    "87":
+    {"name":"Deferred Dynamo",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Send out an electric orb that fires a continuous lightning stream at the first enemy it strikes!",
+      "enhanced":"Lightning stream pushes enemies back twice as far!",
+      "type":"Lightning",
+      "pool":"3"}
+  ,
+    "88":
+    {"name":"Ion Spike",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Generate a charged orb that syncs up with nearby orbs before releasing a stream of lightning!",
+      "enhanced":"Orbs fire both forwards and backwards!",
+      "type":"Lightning",
+      "pool":"1"}
+  ,
+    "89":
+    {"name":"Lightning Aspect",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Generate a field of electricity that shocks enemies that you come into contact with!",
+      "enhanced":"Creates shocking pulses!",
+      "type":"Lightning",
+      "pool":"2"}
+  ,
+    "90":
+    {"name":"Line Shock Agent",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Conjure an agent of lightning that assaults foes with a stream of lightning!",
+      "enhanced":"Lightning streams last longer and deal more damage!",
+      "type":"Lightning",
+      "pool":"4"}
+  ,
+    "91":
+    {"name":"Magsphere",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso David Gottsegen, this arcana allows you to pull all nearby projectiles into an orbit around you!",
+      "enhanced":"All projectiles shock foes!",
+      "type":"Lightning",
+      "pool":"2"}
+  ,
+    "92":
+    {"name":"Shock Assault",
+      "subtype":"Melee",
+      "slot":"Signature",
+      "effect":"Ride a bolt of lightning to shock foes in the area!",
+      "enhanced":"Increases the number of strikes!",
+      "type":"Lightning",
+      "pool":"2"}
+  ,
+    "93":
+    {"name":"Shock Line",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Jolt ahead and leave behind a line of shocking current!",
+      "enhanced":"Throws an additional shock line in front you!",
+      "type":"Lightning",
+      "pool":"4"}
+  ,
+    "94":
+    {"name":"Shock Nova",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Hold to charge up and release an explosion of electricity that shocks all foes in the area at maximum charge!",
+      "enhanced":"Nova charges up faster and has an increased radius!",
+      "type":"Lightning",
+      "pool":"4"}
+  ,
+    "95":
+    {"name":"Shock Wire",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Throw out a wire of current that shocks any enemies that it comes into contact with!",
+      "enhanced":"Wire is longer and expands more quickly!",
+      "type":"Lightning",
+      "pool":"5"}
+  ,
+    "96":
+    {"name":"Spark Array",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Form a double weave of shocking sparks that slowly move outward!",
+      "enhanced":"Sparks fire a lightning stream back to you when they dissipate!",
+      "type":"Lightning",
+      "pool":"5"}
+  ,
+    "97":
+    {"name":"Spark Contact",
+      "subtype":"Melee",
+      "slot":"Basic",
+      "effect":"Jolt foes with a burst of electricity!",
+      "enhanced":"Final blow creates a shocking electric blast!",
+      "type":"Lightning",
+      "pool":"3"}
+  ,
+    "98":
+    {"name":"Star Bolt",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Hurl an electrified star that shocks any enemy it strikes!",
+      "enhanced":"Stars shock for a longer duration!",
+      "type":"Lightning",
+      "pool":"4"}
+  ,
+    "99":
+    {"name":"Surge Anchor",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Throws out an anchor that generates a surge of lightning between you and the anchor!",
+      "enhanced":"Anchor lasts longer and creates more streams!",
+      "type":"Lightning",
+      "pool":"4"}
+  ,
+    "100":
+    {"name":"Thunder Drop",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Volt into the sky before crashing down on a bolt of lightning to shock all foes in the area!",
+      "enhanced":"Creates a secondary aftershock!",
+      "type":"Lightning",
+      "pool":"3"}
+  ,
+    "101":
+    {"name":"Thundering Chain",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Generate a series of lightning strikes that shock foes!",
+      "enhanced":"All strikes generate near simultaneously!",
+      "type":"Lightning",
+      "pool":"1"}
+  ,
+    "102":
+    {"name":"Volt Pinball",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Generate a protective ring of charged orbs that ricochet from foe to foe!",
+      "enhanced":"Pinballs last longer and have more ricochet charges!",
+      "type":"Lightning",
+      "pool":"5"}
+  ,
+    "103":
+    {"name":"Voltaic Needle",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Dart forward and pin all foes in your path with a piercing lightning needle!",
+      "enhanced":"Dart forward quicker with a more powerful needle!",
+      "type":"Lightning",
+      "pool":"4"}
+  ,
+    "104":
+    {"name":"Ward of Lightning",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a lightning ward that shocks foes randomly and increases all lightning damage done in the area!",
+      "enhanced":"Ward area is increased and also increases earth damage done in the area!",
+      "type":"Lightning",
+      "pool":"5"}
+  ,
+    "105":
+    {"name":"Aqua Arc",
+      "subtype":"",
+      "slot":"Basic",
+      "effect":"Direct an arcing stream of water!",
+      "enhanced":"Unleashes a burst of ice on impact!",
+      "type":"Water",
+      "pool":"1"}
+  ,
+    "106":
+    {"name":"Aqua Beam",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Unleash a torrent of water to blast away enemies!",
+      "enhanced":"Beam's width is increased!",
+      "type":"Water",
+      "pool":"4"}
+  ,
+    "107":
+    {"name":"Aqua Breaker",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Hold to charge up and release a rapidly spinning ball of water that creates an explosive deluge at maximum charge!",
+      "enhanced":"Charges up twice as quickly!",
+      "type":"Water",
+      "pool":"4"}
+  ,
+    "108":
+    {"name":"Aqua Vortex",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon swirling currents of water that envelop you!",
+      "enhanced":"Unleashes a final burst of freezing ice!",
+      "type":"Water",
+      "pool":"5"}
+  ,
+    "109":
+    {"name":"Binary Splashdown",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Throw out a burst of water that draws in foes before blasting into the sky and splashing down!",
+      "enhanced":"Splashdown creates additional water bursts!",
+      "type":"Water",
+      "pool":"5"}
+  ,
+    "110":
+    {"name":"Bouncing Bubble",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Throw out a bubble of water that bounces every time it strikes an enemy or wall!",
+      "enhanced":"Increases bubble speed and number of times it can strike enemies!",
+      "type":"Water",
+      "pool":"5"}
+  ,
+    "111":
+    {"name":"Bubble Barrage",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Rapidly fire a stream of explosive bubbles!",
+      "enhanced":"Bubbles are larger and deal more damage!",
+      "type":"Water",
+      "pool":"5"}
+  ,
+    "112":
+    {"name":"Cardice Prime",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Conjure a rapidly revolving ring of icy blades!",
+      "enhanced":"Conjures additional blades and all blades fly outward when released!",
+      "type":"Water",
+      "pool":"2"}
+  ,
+    "113":
+    {"name":"Creeping Tendrils",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Designed by Virtuoso Verdestrom, this arcana creates a tendril of water that binds and travels to any foes it hits!",
+      "enhanced":"Tendrils spin faster and deal more damage!",
+      "type":"Water",
+      "pool":"2"}
+  ,
+    "114":
+    {"name":"Frost Fan",
+      "subtype":"",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Throw out a fan of frost daggers that freeze enemies!",
+      "enhanced":"Daggers fly further and pierce through enemies!",
+      "type":"Water",
+      "pool":"1"}
+  ,
+    "115":
+    {"name":"Frost Feint",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Race forward while leaving behind a frozen decoy!",
+      "enhanced":"Leaves an extra decoy at the end of the dash!",
+      "type":"Water",
+      "pool":"2"}
+  ,
+    "116":
+    {"name":"Frozen Bait",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Lob a frozen decoy that lures in foes and giant sharks alike!",
+      "enhanced":"Lures a larger shark for increased damage!",
+      "type":"Water",
+      "pool":"5"}
+  ,
+    "117":
+    {"name":"Glacial Cross",
+      "subtype":"Melee",
+      "slot":"Signature",
+      "effect":"Dash forward and conjure a colossal frozen fist to strike foes!",
+      "enhanced":"Fist explodes and fires off a cone of ice shards!",
+      "type":"Water",
+      "pool":"3"}
+  ,
+    "118":
+    {"name":"Ice Dagger",
+      "subtype":"Melee",
+      "slot":"Basic",
+      "effect":"Pierce foes with conjured ice daggers!",
+      "enhanced":"Throws out a piercing dagger on the final strike!",
+      "type":"Water",
+      "pool":"4"}
+  ,
+    "119":
+    {"name":"Ice Seekers",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a trio of seekers that home in on and freeze nearby enemies!",
+      "enhanced":"Summons an additional seeker!",
+      "type":"Water",
+      "pool":"2"}
+  ,
+    "120":
+    {"name":"Ice Spear",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Conjure a spear of ice that impales foes and freezes them against walls!",
+      "enhanced":"Spear is larger, moves faster, and deals more damage!",
+      "type":"Water",
+      "pool":"1"}
+  ,
+    "121":
+    {"name":"Perfect Storm",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Summon a storm of hail and ice shards that rains down on foes!",
+      "enhanced":"Increases storm size and duration!",
+      "type":"Water",
+      "pool":"3"}
+  ,
+    "122":
+    {"name":"Rebounding Icicles",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Conjure a series of icicles that cascade out and return to you!",
+      "enhanced":"Icicles travel further!",
+      "type":"Water",
+      "pool":"5"}
+  ,
+    "123":
+    {"name":"Snowflake Chakrams",
+      "subtype":"",
+      "slot":"Signature",
+      "effect":"Conjure snowflake chakrams that orbit outwards!",
+      "enhanced":"Chakrams orbit back inwards after expanding!",
+      "type":"Water",
+      "pool":"4"}
+  ,
+    "124":
+    {"name":"Tidal Blast",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Pull in enemies with a series of water balls before blasting them away with a massive deluge!",
+      "enhanced":"Summons an additional water ball to shield you while casting!",
+      "type":"Water",
+      "pool":"3"}
+  ,
+    "125":
+    {"name":"Ward of Frost",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Form a ward of frost that periodically freezes foes and increases all water damage done in the area!",
+      "enhanced":"Ward area is increased and also increases lightning damage done in the area!",
+      "type":"Water",
+      "pool":"5"}
+  ,
+    "126":
+    {"name":"Water Prison",
+      "subtype":"",
+      "slot":"Standard",
+      "effect":"Fire off a prison of water that envelops the first enemy it strikes!",
+      "enhanced":"Gain an extra prison charge and increases the prison's speed!",
+      "type":"Water",
+      "pool":"3"}
+  ,
+    "127":
+    {"name":"Water Pulse Agent",
+      "subtype":"Melee",
+      "slot":"Standard",
+      "effect":"Conjure an agent of water that douses foes with a spread of water blobs!",
+      "enhanced":"Adds more water blobs for a wider spread shot!",
+      "type":"Water",
+      "pool":"4"}
+  ,
+    "128":
+    {"name":"Wave Front",
+      "subtype":"",
+      "slot":"Dash",
+      "effect":"Race forward while enveloped in a watery globe that briefly shields you!",
+      "enhanced":"Increases shield durability!",
+      "type":"Water",
+      "pool":"3"}
+  }
+}
