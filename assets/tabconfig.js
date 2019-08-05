@@ -20,21 +20,21 @@ const tabConfig = {
 export const tabIconConfig = {
     Generate: {
         key: 'generate',
-            icon: 'cards',
+        icon: 'cards',
         label: 'Generate',
         barColor: '#364f6b',
         pressColor: 'rgba(255, 255, 255, 0.16)'
     },
     Search: {
         key: 'search',
-            icon: 'magnify',
+        icon: 'magnify',
         label: 'Search',
         barColor: '#3fc1c9',
         pressColor: 'rgba(255, 255, 255, 0.16)'
     },
     Information: {
         key: 'info',
-            icon: 'information-outline',
+        icon: 'information-outline',
         label: 'Info',
         barColor: '#fc5185',
         pressColor: 'rgba(255, 255, 255, 0.16)'

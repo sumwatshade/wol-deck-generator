@@ -3,21 +3,21 @@ import {StyleSheet, Text, KeyboardAvoidingView, TextInput, FlatList, KeyboardAvo
 import Fuse from 'fuse.js';
 import SpellComponent from "../components/Spell";
 
-type Spell = {
-    name: string,
-    subtype: string,
-    slot: string,
-    effect: string,
-    enhanced: string,
-    type: string,
-    pool: string
+interface Spell {
+    name: string;
+    subtype: string;
+    slot: string;
+    effect: string;
+    enhanced: string;
+    type: string;
+    pool: string;
 }
 
-type Relic = {
-    name: string,
-    type: string,
-    effect: string,
-    pool: string
+interface Relic {
+    name: string;
+    type: string;
+    effect: string;
+    pool: string;
 }
 
 import data from "../assets/data.json";
@@ -48,19 +48,19 @@ export default function Search() {
     const [search, updateSearch] = useState("");
 
     return (
-    <KeyboardAvoidingView style={styles.container} behavior="padding" enabled>
-        <TextInput
-            style={styles.input}
-            onChangeText={updateSearch}
-            value={search}
-            placeholder="Search Spells"
-        />
-        <FlatList
-            style={styles.list}
-            data={spellSearch.search(search)}
-            renderItem={(d) => (<SpellComponent key={d.item.name} spell={d.item}/>)}
-        />
-    </KeyboardAvoidingView>
+        <KeyboardAvoidingView style={styles.container} behavior="padding" enabled>
+            <TextInput
+                style={styles.input}
+                onChangeText={updateSearch}
+                value={search}
+                placeholder="Search Spells"
+            />
+            <FlatList
+                style={styles.list}
+                data={spellSearch.search(search)}
+                renderItem={(d) => (<SpellComponent key={d.item.name} spell={d.item}/>)}
+            />
+        </KeyboardAvoidingView>
     )
 }
 

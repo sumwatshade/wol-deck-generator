@@ -2,9 +2,9 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 interface TextProps {
-    children: React.ReactNode,
-    style?: object,
-    fontSize ?: number
+    children: React.ReactNode;
+    style?: object;
+    fontSize?: number;
 }
 
 const StyledText: React.SFC<TextProps> = ({children, fontSize, style}) => {

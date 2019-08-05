@@ -2,9 +2,9 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 interface TextProps {
-    type: 'fire' | 'air' | 'water' | 'lightning' | 'chaos',
-    style?: object,
-    fontSize?: number
+    type: 'fire' | 'air' | 'water' | 'lightning' | 'chaos';
+    style?: object;
+    fontSize?: number;
 }
 
 const StyledText: React.SFC<TextProps> = ({type, style, fontSize}) => {
