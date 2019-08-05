@@ -8,24 +8,26 @@ import tabConfig, {tabIconConfig} from "./assets/tabconfig";
 import * as Font from "expo-font";
 
 
+/* eslint-disable */
 const navigatorConfig = {
     defaultNavigationOptions: ({ navigation }) => ({
-        tabBarIcon: ({ focused, horizontal, tintColor }) => {
+        tabBarIcon: () => {
             const { routeName } = navigation.state;
             const config = tabIconConfig[routeName];
-            return <Icon name={config.icon} size={25} color={tintColor} />;
-        },
+            return <Icon name={config.icon} size={25} />;
+        }
     }),
     tabBarOptions: {
         activeTintColor: 'tomato',
         inactiveTintColor: 'gray',
     },
 };
+/* eslint-enable */
 
 const MainNavigator = createMaterialBottomTabNavigator(tabConfig, navigatorConfig);
 const App = createAppContainer(MainNavigator);
 
-export default function Root() {
+const Root: React.FunctionComponent<{}> = () => {
     useEffect(() => {
         async function loadFonts() {
             await Font.loadAsync({
@@ -38,4 +40,6 @@ export default function Root() {
     },[Font]);
 
     return <App/>;
-}
+};
+
+export default Root;

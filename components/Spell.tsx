@@ -5,6 +5,40 @@ import ElementalDisplay from "../components/ElementalDisplay";
 
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        maxWidth: '100%',
+        height: 60,
+        flexDirection: 'row',
+        justifyContent: "flex-start",
+        alignItems: "center",
+        borderColor: 'gray',
+        backgroundColor: '#ffffff',
+        borderWidth: 5,
+        marginTop: 2
+    },
+    type: {
+        flexShrink: 0,
+        minWidth: "25%",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    details: {
+        fontFamily: 'GameOver',
+        flexGrow: 4
+    },
+    modal: {
+        padding: 10,
+        margin: 20,
+        alignSelf: 'center',
+        backgroundColor: '#4b4b4b',
+    },
+    close: {
+        alignSelf: "flex-end"
+    }
+});
+
 export default function Spell({spell}) {
     const {name, subtype, slot, effect, enhanced, type, pool} = spell;
     const [isModalVisible, toggleModal] = useState(false);
@@ -61,37 +95,3 @@ export default function Spell({spell}) {
         </TouchableHighlight>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        maxWidth: '100%',
-        height: 60,
-        flexDirection: 'row',
-        justifyContent: "flex-start",
-        alignItems: "center",
-        borderColor: 'gray',
-        backgroundColor: '#ffffff',
-        borderWidth: 5,
-        marginTop: 2
-    },
-    type: {
-        flexShrink: 0,
-        minWidth: "25%",
-        justifyContent: "center",
-        alignItems: "center",
-    },
-    details: {
-        fontFamily: 'GameOver',
-        flexGrow: 4
-    },
-    modal: {
-        padding: 10,
-        margin: 20,
-        alignSelf: 'center',
-        backgroundColor: '#4b4b4b',
-    },
-    close: {
-        alignSelf: "flex-end"
-    }
-});

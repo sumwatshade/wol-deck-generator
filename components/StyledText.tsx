@@ -7,6 +7,12 @@ interface TextProps {
     fontSize?: number;
 }
 
+const styles = StyleSheet.create({
+    default: {
+        fontFamily: 'GameOver'
+    }
+});
+
 const StyledText: React.SFC<TextProps> = ({children, fontSize, style}) => {
     return (
         <Text style={{...styles.default,...style, fontSize}}>
@@ -18,12 +24,6 @@ const StyledText: React.SFC<TextProps> = ({children, fontSize, style}) => {
 StyledText.defaultProps = {
     fontSize: 45,
     style: {}
-}
-
-const styles = StyleSheet.create({
-    default: {
-        fontFamily: 'GameOver'
-    }
-});
+};
 
 export default StyledText;

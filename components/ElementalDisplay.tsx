@@ -7,20 +7,6 @@ interface TextProps {
     fontSize?: number;
 }
 
-const StyledText: React.SFC<TextProps> = ({type, style, fontSize}) => {
-    console.log(styles[type]);
-    return (
-        <Text style={{...styles.common, ...styles[type.toLowerCase()], ...style, fontSize}}>
-            {type}
-        </Text>
-    )
-};
-
-StyledText.defaultProps = {
-    fontSize: 45,
-    style: {}
-};
-
 const styles = StyleSheet.create({
     common: {
         fontFamily: 'GameOver'
@@ -44,5 +30,18 @@ const styles = StyleSheet.create({
         color: "#0ab504"
     }
 });
+
+const StyledText: React.SFC<TextProps> = ({type, style, fontSize}) => {
+    return (
+        <Text style={{...styles.common, ...styles[type.toLowerCase()], ...style, fontSize}}>
+            {type}
+        </Text>
+    )
+};
+
+StyledText.defaultProps = {
+    fontSize: 45,
+    style: {}
+};
 
 export default StyledText;
