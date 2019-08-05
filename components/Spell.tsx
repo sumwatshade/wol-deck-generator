@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-import {StyleSheet, Text, View, Modal, TouchableHighlight, Alert} from 'react-native';
+import {StyleSheet, View, Modal, TouchableHighlight} from 'react-native';
+import StyledText from "../components/StyledText";
+
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default function Spell({spell}) {
@@ -10,15 +12,15 @@ export default function Spell({spell}) {
         <TouchableHighlight  onPress={() => {toggleModal(!isModalVisible)}}>
             <View style={styles.container}>
                 <View style={styles.type}>
-                    <Text>{type}</Text>
+                    <StyledText>{type}</StyledText>
                 </View>
                 <View style={styles.details}>
-                    <Text>{name}</Text>
+                    <StyledText>{name}</StyledText>
                 </View>
 
                 <Modal
                     animationType="fade"
-                    transparent={false}
+                    transparent={true}
                     visible={isModalVisible}
                     onRequestClose={() => {
                         toggleModal(!isModalVisible);
@@ -31,12 +33,25 @@ export default function Spell({spell}) {
                                 }}>
                                 <Icon name='close' size={25} style={styles.close} />
                             </TouchableHighlight>
-                            <Text>{name}{subtype ? ` - ${subtype}` : ""}</Text>
-                            <Text>{`Element: ${type}`}</Text>
-                            <Text>{`Arcana Slot: ${slot}`}</Text>
-                            <Text>{`Description: ${effect}`}</Text>
-                            <Text>{`Enhanced: ${enhanced}`}</Text>
-                            <Text>{`Pool: ${pool}`}</Text>
+                            <StyledText fontSize={100} style={{alignSelf: 'center', color: '#ffffff'}}>
+                                {name}{subtype ? `(${subtype})` : ""}
+                            </StyledText>
+                            <StyledText style={{alignSelf: 'center', color: '#ffffff'}}>
+                                {`Element: ${type}`}
+                            </StyledText>
+                            <StyledText style={{alignSelf: 'center', color: '#ffffff'}}>
+                                {`Arcana Slot: ${slot}`}
+                            </StyledText>
+                            <StyledText style={{color: "#ffffff"}}>
+                                {`Description: ${effect}`}
+                            </StyledText>
+                            <StyledText style={{color: '#ffffff'}}>
+                                <StyledText style={{color: '#0dcaff'}}>Enhanced: </StyledText>
+                                {enhanced}
+                            </StyledText>
+                            <StyledText style={{alignSelf: 'center', color: '#ffffff'}}>
+                                {`Pool ${pool}`}
+                            </StyledText>
 
 
                         </View>
@@ -58,21 +73,24 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderColor: 'gray',
         backgroundColor: '#ffffff',
-        borderWidth: 1,
+        borderWidth: 5,
         marginTop: 2
     },
     type: {
         flexShrink: 0,
-        minWidth: "20%",
+        minWidth: "25%",
         justifyContent: "center",
         alignItems: "center",
     },
     details: {
+        fontFamily: 'GameOver',
         flexGrow: 4
     },
     modal: {
         padding: 10,
-        margin: 20
+        margin: 20,
+        alignSelf: 'center',
+        backgroundColor: '#4b4b4b',
     },
     close: {
         alignSelf: "flex-end"
