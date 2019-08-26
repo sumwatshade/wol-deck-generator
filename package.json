@@ -12,6 +12,9 @@
     "@types/react": "16.7.18"
   },
   "dependencies": {
+    "appcenter": "2.3.0",
+    "appcenter-analytics": "2.3.0",
+    "appcenter-crashes": "2.3.0",
     "expo": "^34.0.1",
     "expo-font": "^6.0.1",
     "fuse.js": "^3.4.5",
