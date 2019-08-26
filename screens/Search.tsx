@@ -1,7 +1,6 @@
 import React, {useState} from "react";
-import {StyleSheet, KeyboardAvoidingView, TextInput, FlatList, KeyboardAvoidingViewComponent} from 'react-native';
+import {StyleSheet, TextInput, FlatList, KeyboardAvoidingView, Switch} from 'react-native';
 import Fuse from 'fuse.js';
-import SpellComponent from "../components/Spell";
 
 interface Spell {
     name: string;
@@ -29,21 +28,29 @@ const styles = StyleSheet.create({
         backgroundColor: "#252a34"
     },
     input: {
-        height: 40,
+        height: 60,
         marginTop: 20,
-        width: "100%",
+        width: "80%",
         borderColor: '#ff2e63',
         backgroundColor: "#eaeaea",
         padding: 5,
-        borderWidth: 1
+        borderWidth: 1,
+        fontFamily: "GameOver",
+        fontSize: 45
     },
     list: {
         height: "80%",
         width: "100%",
+    },
+    switch: {
+        maxWidth: "20%"
     }
 });
 
 import data from "../assets/data.json";
+import Relic from "../components/Relic";
+import Spell from "../components/Spell";
+
 const relics: Relic[] = Object.values(data.relics);
 const spells: Spell[] = Object.values(data.spells);
 //const all: (Relic|Spell)[] = relics.concat(spells);
@@ -68,13 +75,22 @@ const spellOptions: Fuse.FuseOptions<Spell> = {
 const relicSearch = new Fuse(relics, relicOptions);
 const spellSearch = new Fuse(spells, spellOptions);
 
-
-const renderSpellComponent: React.SFC<any> = (d) => {
-    return <SpellComponent key={d.item.name} spell={d.item}/>
+/* eslint-disable */
+const ListItem = (Component) => (d) => {
+    return <Component key={d.item.name} item={d.item}/>
 };
+/* eslint-enable */
 
 const Search: React.FunctionComponent<{}> = () => {
     const [search, updateSearch] = useState("");
+    
+    const [isRelic, toggleRelicsOrSpells] = useState(false);
+
+    const handleToggleSwitch = () => {
+        toggleRelicsOrSpells(!isRelic);
+    }
+
+    const placeholderText = isRelic ? "Search Relics" : "Search Spells";
 
     return (
         <KeyboardAvoidingView style={styles.container} behavior="padding" enabled>
@@ -82,12 +98,20 @@ const Search: React.FunctionComponent<{}> = () => {
                 style={styles.input}
                 onChangeText={updateSearch}
                 value={search}
-                placeholder="Search Spells"
+                placeholder={placeholderText}
+            />
+            <Switch
+                style={styles.switch}
+                value={isRelic}
+                onValueChange={handleToggleSwitch}
+                thumbColor="#08d9d6"
+                trackColor={{ false: "#eaeaea", true: "false"}}
+
             />
             <FlatList
                 style={styles.list}
-                data={spellSearch.search(search)}
-                renderItem={renderSpellComponent}
+                data={isRelic ? relicSearch.search(search) : spellSearch.search(search)}
+                renderItem={isRelic ? ListItem(Relic) : ListItem(Spell)}
             />
         </KeyboardAvoidingView>
     )

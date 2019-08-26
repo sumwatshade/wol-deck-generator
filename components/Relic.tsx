@@ -1,7 +1,7 @@
-import React, {useState} from "react";
-import {StyleSheet, View, Modal, TouchableHighlight} from 'react-native';
+import React, { useState } from "react";
+import { StyleSheet, View, Modal, TouchableHighlight } from 'react-native';
 import StyledText from "../components/StyledText";
-import ElementalDisplay from "../components/ElementalDisplay";
+import RelicTypeDisplay from "../components/RelicTypeDisplay";
 
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
@@ -42,15 +42,16 @@ const styles = StyleSheet.create({
     }
 });
 
-export default function Spell({item}) {
-    const {name, subtype, slot, effect, enhanced, type, pool} = item;
+export default function Relic({ item }) {
+
+    const { name, effect, type, pool } = item;
     const [isModalVisible, toggleModal] = useState(false);
 
     return (
-        <TouchableHighlight  onPress={() => {toggleModal(!isModalVisible)}}>
+        <TouchableHighlight onPress={() => { toggleModal(!isModalVisible) }}>
             <View style={styles.container}>
                 <View style={styles.type}>
-                    <ElementalDisplay type={type}/>
+                    <RelicTypeDisplay type={type} />
                 </View>
                 <View style={styles.details}>
                     <StyledText>{name}</StyledText>
@@ -71,25 +72,16 @@ export default function Spell({item}) {
                                 }}>
                                 <Icon name='close' size={25} style={styles.close} />
                             </TouchableHighlight>
-                            <StyledText fontSize={100} style={{alignSelf: 'center', color: '#ffffff'}}>
-                                {name}{subtype ? ` (${subtype})` : ""}
+                            <StyledText fontSize={100} style={{ alignSelf: 'center', color: '#ffffff' }}>
+                                {name}
                             </StyledText>
-                            <ElementalDisplay type={type} style={{alignSelf: 'center'}} />
-                            <StyledText style={{alignSelf: 'center', color: '#ffffff'}}>
-                                {`Arcana Slot: ${slot}`}
-                            </StyledText>
-                            <StyledText style={{color: "#ffffff"}}>
+                            <RelicTypeDisplay type={type} style={{ alignSelf: 'center' }} />
+                            <StyledText style={{ alignSelf: 'center', color: '#ffffff' }}>
                                 {`Description: ${effect}`}
                             </StyledText>
-                            <StyledText style={{color: '#ffffff'}}>
-                                <StyledText style={{color: '#0dcaff'}}>Enhanced: </StyledText>
-                                {enhanced}
-                            </StyledText>
-                            <StyledText style={{alignSelf: 'center', color: '#ffffff'}}>
+                            <StyledText style={{ alignSelf: 'center', color: '#ffffff' }}>
                                 {`Pool ${pool}`}
                             </StyledText>
-
-
                         </View>
                     </View>
                 </Modal>

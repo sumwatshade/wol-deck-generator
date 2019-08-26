@@ -11,29 +11,24 @@ const styles = StyleSheet.create({
     common: {
         fontFamily: 'GameOver'
     },
-    fire: {
+    offense: {
         color: "#ff2000"
     },
-    water: {
-        color: "#1367ff"
-    },
-    air: {
-        color: "#4ebbf0"
-    },
-    lightning: {
-        color: "#f0ea1c"
-    },
-    chaos: {
+    cursed: {
         color: "#2500d4"
     },
-    earth: {
+    defense: {
+        color: "#4ebbf0"
+    },
+    doctor: {
         color: "#0ab504"
-    }
+    },
+    misc: {}
 });
 
-const StyledText: React.SFC<ElementalDisplayProps> = ({type, style, fontSize}) => {
+const StyledText: React.SFC<ElementalDisplayProps> = ({ type, style, fontSize }) => {
     return (
-        <Text style={{...styles.common, ...styles[type.toLowerCase()], ...style, fontSize}}>
+        <Text style={{ ...styles.common, ...styles[type.toLowerCase()], ...style, fontSize }}>
             {type}
         </Text>
     )
